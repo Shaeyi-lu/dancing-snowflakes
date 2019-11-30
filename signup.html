@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Link to the Style Sheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Link to the font-->
+<link 
+href='http://fonts.googleapis.com/css?family=Roboto' rel
+='stylesheet' type='text/css'>
+
 <head>
     <title>Sign up</title>
 </head>
 
 <body>
-    <h1>Sign Up</h1>
+    <h1 class="header">Sign Up</h1>
     <fieldset>
-        <legend>Create a Legacy Account</legend>
-        <form method="post" action="php.php">
+        <legend class="legend">Create a Legacy Account</legend>
+        <form method="post" action="php.php" class="logsign">
 
             <label>First Name</label><br>
-            <input type="text" name="fname" placeholder="First Name*" required><br>
+            <input type="text" name="fname" placeholder="First Name*" required><br><br>
 
             <label>Last Name</label><br>
-            <input type="text" name="lname" placeholder="Last Name*" required><br>
+            <input type="text" name="lname" placeholder="Last Name*" required><br><br>
 
             <label>Email</label><br>
-            <input type="email" name="email" placeholder="Enter Email*" required><br>
+            <input type="email" name="email" placeholder="Enter Email*" required><br><br>
 
             <label>Password</label><br>
-            <input id="pass" type="password" name="pass" placeholder="Choose a Password*" required onchange="validatePass()"><br>
+            <input id="pass" type="password" name="pass" placeholder="Choose a Password*" required onchange="validatePass()"><br><br>
 
             <label>Confirm Password</label><br>
-            <input id="confirmpass" type="password" name="confirmpass" placeholder="Confirm Password*" required onchange="validatePass()"><br>
+            <input id="confirmpass" type="password" name="confirmpass" placeholder="Confirm Password*" required onchange="validatePass()"><br><br>
 
-            <input type="submit" value="SIGN UP" name="signup">
+            <input type="submit" value="SIGN UP" name="signup" class="btn"><br>
 
             <p>Have an Account? <a href="login.html">LOG IN</a></p>
         </form>

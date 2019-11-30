@@ -36,7 +36,7 @@ input{
 	border-radius: 12px; 
 	font-size: 1.1em;
 }
-
+ 
 .btn:active{
 	background-color: #0066ff;
   	transform: translateY(4px);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- The user will be re-directed to this webpage after choosing the tickets quantity
+and ready to pay -->
+
+<head>
+    <title>Payments</title>
+</head>
+
+<body>
+    <form action="pay-confirm.php" method="post">
+        <h1>Payment</h1>
+        <fieldset>
+            <p>How would you like to pay?</p>
+            <input type="radio" name="pay"><img style="width: 80px; height: 40px" src="images/visa.jpg" alt="VISA">
+            <input type="radio" name="pay"><img style="width: 80px; height: 40px" src="images/mastercard.png" alt="mastercard">
+            <br>
+            <label>Cardholder Name</label><br>
+            <input type="text" name="name" pattern="[A-za-z\s]+" required><br>
+            <label>Card Number</label><br>
+            <input type="text" name="number" pattern="[0-9\s]+" required><br>
+            <label>Expiry Date(MMYY)</label><br>
+            <input type="text" name="date" minlength="4" maxlength="4" pattern="[0-9]+" required><br>
+            <label>Security Code</label><br>
+            <input type="text" name="code" maxlength="3" pattern="[0-9]+" required><br>
+            <input type="submit" value="PAY" name="pay">
+        </fieldset>
+    </form>
+</body>
+
+</html>

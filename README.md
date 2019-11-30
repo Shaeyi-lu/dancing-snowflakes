@@ -1,3 +1,2 @@
-# dancing-snowflakes
+Main webpages: index (homepage), showtimes, trailers, login, sign up
 
-Dancingn Snowflakes and Shinning Waters

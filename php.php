@@ -30,9 +30,8 @@ if(isset($_POST['signup'])){
   $lname=$_POST['lname'];
   $email=$_POST['email'];
   $pass=$_POST['pass'];
-  $confirmpass=$_POST['pass'];
-    $sql= "INSERT INTO users (fname, lname, email, pass, confirmpass, membersince) 
-    VALUES ('".$fname."', '".$lname."','".$email."','".$pass."', '".$confirmpass."', NOW()); ";
+    $sql= "INSERT INTO users (fname, lname, email, pass, membersince) 
+    VALUES ('".$fname."', '".$lname."','".$email."','".$pass."', NOW()); ";
     $res=mysqli_query($conn, $sql);
     if ($res==TRUE){
       echo "You have successfully signed up! Thank you!";

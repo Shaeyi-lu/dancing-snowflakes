@@ -6,7 +6,34 @@
 </head>
 
 <body>
+    <h1>Sign Up</h1>
+    <fieldset>
+        <legend>Create a Legacy Account</legend>
+        <form method="post" action="php.php">
 
+            <label>First Name</label><br>
+            <input type="text" name="fname" placeholder="First Name*" required><br>
+
+            <label>Last Name</label><br>
+            <input type="text" name="lname" placeholder="Last Name*" required><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="Enter Email*" required><br>
+
+            <label>Password</label><br>
+            <input id="pass" type="password" name="pass" placeholder="Choose a Password*" required onchange="validatePass()"><br>
+
+            <label>Confirm Password</label><br>
+            <input id="confirmpass" type="password" name="confirmpass" placeholder="Confirm Password*" required onchange="validatePass()"><br>
+
+            <input type="submit" value="SIGN UP" name="signup">
+
+            <p>Have an Account? <a href="login.html">LOG IN</a></p>
+        </form>
+    </fieldset>
 </body>
+
+<!--  Keep at the end of the document  -->
+<script src="javascript.js"></script>
 
 </html>

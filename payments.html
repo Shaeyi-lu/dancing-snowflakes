@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="logsign_page">
+
+<!--Link to the Style Sheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Link to the font-->
+<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
 <!-- The user will be re-directed to this webpage after choosing the tickets quantity
 and ready to pay -->
 
@@ -8,22 +14,30 @@ and ready to pay -->
 </head>
 
 <body>
-    <form action="pay-confirm.php" method="post">
-        <h1>Payment</h1>
+    <h1 class="header">Payment</h1>
+    <form action="pay-confirm.php" method="post" class="logsign">
         <fieldset>
-            <p>How would you like to pay?</p>
-            <input type="radio" name="pay"><img style="width: 80px; height: 40px" src="images/visa.jpg" alt="VISA">
-            <input type="radio" name="pay"><img style="width: 80px; height: 40px" src="images/mastercard.png" alt="mastercard">
+            <p class="legend">How would you like to pay?</p>
+                <table>
+                    <tr>
+                        <td> <img style="width: 80px; height: 40px" src="images/visa.jpg" alt="VISA"> </td>
+                        <td> <img style="width: 80px; height: 40px" src="images/mastercard.png" alt="mastercard"> </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="radio" name="pay"> </td>
+                        <td> <input type="radio" name="pay"> </td>
+                    </tr>
+                </table>
             <br>
             <label>Cardholder Name</label><br>
-            <input type="text" name="name" pattern="[A-za-z\s]+" required><br>
+            <input type="text" name="name" pattern="[A-za-z\s]+" required><br><br>
             <label>Card Number</label><br>
-            <input type="text" name="number" pattern="[0-9\s]+" required><br>
+            <input type="text" name="number" pattern="[0-9\s]+" required><br><br>
             <label>Expiry Date(MMYY)</label><br>
-            <input type="text" name="date" minlength="4" maxlength="4" pattern="[0-9]+" required><br>
+            <input type="text" name="date" minlength="4" maxlength="4" pattern="[0-9]+" required><br><br>
             <label>Security Code</label><br>
-            <input type="text" name="code" maxlength="3" pattern="[0-9]+" required><br>
-            <input type="submit" value="PAY" name="pay">
+            <input type="text" name="code" maxlength="3" pattern="[0-9]+" required><br><br>
+            <input type="submit" value="PAY" name="pay" class="btn"><br><br>
         </fieldset>
     </form>
 </body>

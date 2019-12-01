@@ -92,7 +92,7 @@ ul li:hover {
     background-color: violet;
 }
 
-body {
+#background {
     background: url(images/frozen.jpg) no-repeat;
     background-size: cover;
 }

@@ -5,7 +5,6 @@
     background-image: url("images/popcorn.jpg");
 }
 
-
 fieldset {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
@@ -94,7 +93,7 @@ ul li:hover {
 }
 
 body {
-    background: url(frozen.jpg) no-repeat;
+    background: url(images/frozen.jpg) no-repeat;
     background-size: cover;
 }
 

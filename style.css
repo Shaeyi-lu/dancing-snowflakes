@@ -1,23 +1,80 @@
-.wrapper{
+/*The following code is intended for the login/ sign up/ payments page*/
+
+.logsign_page {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/popcorn.jpg");
+}
+
+fieldset {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 500px;
+}
+
+.header {
+    color: #005ce6;
+    padding-left: 35px;
+    font-size: 2.5em;
+}
+
+.legend {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #333333;
+    font-size: 1.1em;
+}
+
+input {
+    width: 300px;
+}
+
+.logsign {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: #0066ff;
+    border-radius: 12px;
+    font-size: 1.1em;
+}
+
+.btn:active {
+    background-color: #0066ff;
+    transform: translateY(4px);
+}
+
+.p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+
+/*The following code is intended for the index page*/
+
+.wrapper {
     background-color: white;
     margin-left: 400px;
     margin-right: 200px;
     width: 700px;
 }
-nav{
+
+nav {
     padding-top: 20px;
     margin-left: 50px;
     margin-right: 20px;
-    
 }
+
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: arial;
-    
-   }
-ul li{
+}
+
+ul li {
     float: left;
     width: 200px;
     height: 40px;
@@ -29,26 +86,31 @@ ul li{
     color: white;
     font-size: 15px;
 }
+
 ul li:hover {
     display: block;
-    background-color: violet;
+    background-color: coral;
 }
-body{
-    background: url(frozen.jpg) no-repeat;
+
+#background {
+    background: url(images/frozen.jpg) no-repeat;
     background-size: cover;
 }
-p{
+
+p {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     padding-top: 20px;
 }
-#playing{
+
+#playing {
     font-size: 17px;
     padding-top: 9px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#images img{
+
+#images img {
     margin-left: 30px;
     margin-right: 20px;
     margin-top: 10px;
@@ -56,7 +118,55 @@ p{
     width: 130px;
     padding-top: 20px;
 }
-#images{
+
+#images {
     margin-left: 70px;
     padding-bottom: 20px;
+}
+
+/*Trailers and showtimes code*/
+h1, h3, h4 {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    background-color: coral;
+    height: 40px;
+    line-height: 40px;
+}
+
+iframe {
+    margin-left: 25px;
+}
+
+.trailerimages img:hover{
+    transform: scale(1.2);
+    
+}
+
+#trailers {
+    background-image: url(images/movie.jpg);
+    background-size: cover;
+}
+
+#showtimes {
+    background-image: url(images/background.png);
+    background-size: 50%;
+}
+
+#showtimes img {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 200px;
+    width: 130px;
+    padding-top: 20px;
+    float: left;
+    clear: left;
+}
+
+#movies {
+    padding: 20px;
+    
 }

@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-    <link type="text/css" 
+<html lang="en" class="logsign_page">
+
+<!--Link to the Style Sheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--Link to the font-->
+<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 
 <head>
     <title>Login Page</title>
 </head>
 
 <body>
-<ul>
-    <li>Home</li>
-    <li>Showtimes</li>
-    <li>Trailers</li>
-</ul>
+    <h1 class="header">Log In</h1>
+    <fieldset>
+        <legend class="legend">Legacy Account</legend>
+        <form method="post" action="php.php" class="logsign">
 
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="Enter Email*" required><br><br>
+
+            <label>Password</label><br>
+            <input type="password" name="pass" placeholder="Enter Password*" required> <br><br>
+
+            <input type="submit" value="LOG IN" name="login" class="btn"><br>
+
+            <p class="p">Don't have an account? <a href="signup.html">SIGN UP</a></p>
+        </form>
+    </fieldset>
 </body>
 
 </html>

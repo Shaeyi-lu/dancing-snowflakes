@@ -218,7 +218,8 @@ iframe {
 
 #showtimes {
     background-image: url(images/background.png);
-    background-size: 50%;
+    background-size: 51%;
+    background-repeat: repeat;
 }
 
 #showtimes img {

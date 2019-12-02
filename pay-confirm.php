@@ -5,12 +5,10 @@ $dbhost="localhost";
 $dbuser="root";
 $dbpass="12345";
 $dbname="legacy";
-
 $conn= mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 if(mysqli_connect_error()){
   die("Connection failed: " . mysqli_connect_error(). "(" . mysqli_connect_error() . ")");
 }
-
 if(isset($_POST['pay'])){
   $name=$_POST['name'];
   $number=$_POST['number'];
@@ -26,14 +24,12 @@ if(isset($_POST['pay'])){
       echo "Card Number: ". $number. "<br>";
       echo "Payment Amount: ". "<br>";
       echo "Transaction Date: " .date("l"). ", " .date("m-d-Y"). " at " .date('h:i A', strtotime($date)). "<br>" ;
-
       echo "<h2>Your Selection: </h2>";
       echo "Movie: ". "<br>";
       echo "Date: ". "<br>";
       echo "Time: ". "<br>";
-      echo "Screen: ". "<br>";
+      echo "Location: Oshawa". "<br>";
       echo "Total # of Tickets: ". "<br>";
-      
       exit();
     }
     else {

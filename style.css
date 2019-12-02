@@ -60,30 +60,27 @@ input {
 
 /*The following code is intended for the index page*/
 
-.wrapper {
+.wrapper{
     background-color: white;
-    margin-left: 400px;
-    margin-right: 200px;
-    width: 700px;
-
+    margin-left: 330px;
+    margin-right: 600px;
+    width: 800px;
 }
-
-nav {
+nav{
     padding-top: 20px;
     margin-left: 50px;
     margin-right: 20px;
+    
 }
-
-ul {
+nav ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: arial;
-}
-
-ul li {
+   }
+nav ul li a{
     float: left;
-    width: 200px;
+    width: 235px;
     height: 40px;
     background-color: black;
     opacity: .8;
@@ -92,43 +89,105 @@ ul li {
     font-size: 20px;
     color: white;
     font-size: 15px;
+    text-decoration: none;
 }
-
-ul li:hover {
+nav ul li a:hover {
     display: block;
-    background-color: coral;
+    background-color:#6DB4DD;
 }
-
-#background {
-    background: url(images/frozen.jpg) no-repeat;
+body{
+    background: url(frozen.jpg) no-repeat;
     background-size: cover;
 }
-
-p {
+p{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     padding-top: 20px;
 }
-
-#playing {
+#playing{
     font-size: 17px;
     padding-top: 9px;
+    padding-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#images img {
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 10px;
+#images img{
+    
+    padding-top: 0px;
+    margin-left: 100px;
     height: 200px;
     width: 130px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#images img:hover{
+        transform: scale(1.2);
+        
+    }
+    
+
+.login ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login ul li{
+    float: left;
     padding-top: 20px;
+    background-color:#6DB4DD ;
+    
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 4px;
+    line-height: 10px;
+    font-size: 15px;
+    width: 80px;
+    height: 20px;
+    
+}
+.login ul li a{
+    color: white;
+    text-decoration: none;
+    padding-top: 8px;
+
+}
+.login ul li:hover {
+    display: block;
+    background-color:#1a8cff;
 }
 
-#images {
-    margin-left: 70px;
-    padding-bottom: 20px;
+.login ul{
+list-style: none;
+margin: 0;
+padding: 0;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+}
+.login ul li{
+float: left;
+padding-top: 20px;
+background-color:#6DB4DD ;
+
+text-align: center;
+margin-top: 16px;
+margin-left: 4px;
+line-height: 10px;
+font-size: 15px;
+width: 80px;
+height: 20px;
+
+}
+.login ul li a{
+color: white;
+text-decoration: none;
+padding-top: 8px;
+
+}
+.login ul li:hover {
+display: block;
+background-color:#1a8cff;
 }
 
 /*Trailers and showtimes code*/

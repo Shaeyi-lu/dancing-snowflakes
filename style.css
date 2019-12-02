@@ -95,7 +95,7 @@ nav ul li a:hover {
     display: block;
     background-color:#6DB4DD;
 }
-body{
+#background{
     background: url(frozen.jpg) no-repeat;
     background-size: cover;
 }
@@ -203,7 +203,7 @@ h3 {
 }
 
 iframe {
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .trailerimages img:hover{

@@ -236,3 +236,11 @@ iframe {
     padding: 20px;
     
 }
+.section{
+    background-color:grey;
+    height: 400px;
+    border-radius: 12px;
+}
+.section p{
+    font-size: 27px;
+}

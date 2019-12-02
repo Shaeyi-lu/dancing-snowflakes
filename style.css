@@ -162,9 +162,11 @@ iframe {
     height: 200px;
     width: 130px;
     padding-top: 20px;
-    
+    float: left;
+    clear: left;
 }
 
 #movies {
     padding: 20px;
+    
 }

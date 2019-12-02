@@ -33,8 +33,6 @@ if(isset($_POST['pay'])){
       echo "Time: ". "<br>";
       echo "Screen: ". "<br>";
       echo "Total # of Tickets: ". "<br>";
-
-      
       
       exit();
     }

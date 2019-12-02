@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body id="trailers">
     <div class="wrapper">
         <nav>
             <ul>
@@ -14,10 +14,10 @@
                 <li>SHOWTIMES</li>
                 <li>TRAILERS</li>
             </ul><br>
-        </nav><br>
+        </nav>
 
-        <img src="images/legacy.png" style="float: right; width: 150px; height: 150px; margin-right: 20px;"><br>
-        <p style="float: right; margin-right: 20px;">Legacy Cinemas</p><br>
+        <img src="images/legacy.png" style="float: right; width: 250px; height: 250px; margin-right: 20px;">
+        <p>Legacy Cinemas</p><br>
 
         <h1>Movie Trailers</h1>
 
@@ -27,24 +27,23 @@
             He soon sifts through a web of red herrings and self-serving lies to uncover the truth behind the writer's untimely demise.
         </h4>
 
-        <h2>All Trailers</h2>
-
+        <h3>ALL TRAILERS</h3>
         <div id="images" class="trailerimages">
-                <img src="images/frozenPoster.jfif" onclick="trailerFrozen()">
-                <img src="images/Last.jpg" onclick="trailerLast()">
-                <img src="images/Rogers.png" onclick="trailerRogers()"><br>
-                <img src="images/Joker.jpg" onclick="trailerJoker()">
-                <img src="images/Angels.jpg" onclick="trailerAngels()">
-                <img src="images/Bridges.jfif" onclick="trailerBridges()"><br>
-                <img src="images/Cars.jpg" onclick="trailerCars()">
-                <img src="images/knives.jpg" onclick="trailerKnives()">
-                <img src="images/Dogs.jpg" onclick="trailerDogs()">
+                <img src="images/frozenPoster.jfif" title="Frozen 2" onclick="trailerFrozen()">
+                <img src="images/Last.jpg" title="Last Christmas" onclick="trailerLast()">
+                <img src="images/Rogers.png" title="A Beautiful Day in the Neighborhood" onclick="trailerRogers()"><br>
+                <img src="images/Joker.jpg" title="Joker" onclick="trailerJoker()">
+                <img src="images/Angels.jpg" title="Charlie's Angels" onclick="trailerAngels()">
+                <img src="images/Bridges.jfif" title="21 Bridges" onclick="trailerBridges()"><br>
+                <img src="images/Cars.jpg" title="Ford v Ferrari" onclick="trailerCars()">
+                <img src="images/knives.jpg" title="Knives out" onclick="trailerKnives()">
+                <img src="images/Dogs.jpg" title="Arctic Dogs" onclick="trailerDogs()">
         </div>
 
-
     </div>
+</body>
 
-    <script>
+<script>
         function trailerFrozen() {
             document.getElementById("video").src = "https://www.youtube.com/embed/Zi4LMpSDccc?autoplay=1"
             document.getElementById("trailer").innerHTML = "Frozen 2 - Official Trailer"
@@ -91,6 +90,5 @@
             document.getElementById("synopsis").innerHTML = "Swifty the fox discovers a devious plan by Otto Von Walrus to drill beneath the Arctic surface to unleash enough gas to melt all the ice. With help from his friends -- an introverted polar bear, a scatterbrained albatross, a crafty fox and two paranoid otters -- Swifty and the gang spring into action to foil Otto's plot and save the day."
         }
     </script>
-</body>
 
 </html>

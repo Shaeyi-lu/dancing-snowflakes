@@ -94,13 +94,13 @@ ul li:hover {
 }
 
 body {
-    background: url(frozen.jpg) no-repeat;
+    background: url(images/frozen.jpg) no-repeat;
     background-size: cover;
 }
 
 p {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     padding-top: 20px;
 }
@@ -123,4 +123,31 @@ p {
 #images {
     margin-left: 70px;
     padding-bottom: 20px;
+}
+
+/*Trailers and showtimes code*/
+h1, h3, h4 {
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+h3 {
+    background-color: violet;
+    
+}
+
+iframe {
+    margin-left: 25px;
+}
+
+.trailerimages img:hover {
+    transform: scale(1.2);
+    
+}
+
+#trailers {
+    background-image: url(images/movie.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }

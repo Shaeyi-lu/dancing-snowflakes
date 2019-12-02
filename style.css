@@ -132,17 +132,19 @@ h1, h3, h4 {
 }
 h3 {
     background-color: coral;
-    
+    height: 40px;
+    line-height: 40px;
 }
 
 iframe {
     margin-left: 25px;
 }
 
-.trailerimages img:hover {
+.trailerimages img:hover{
     transform: scale(1.2);
     
 }
+
 
 #trailers {
     background-image: url(images/movie.jpg);

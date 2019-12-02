@@ -1,0 +1,62 @@
+.wrapper{
+    background-color: white;
+    margin-left: 400px;
+    margin-right: 200px;
+    width: 700px;
+}
+nav{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+    
+   }
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-size: 15px;
+}
+ul li:hover {
+    display: block;
+    background-color: violet;
+}
+body{
+    background: url(frozen.jpg) no-repeat;
+    background-size: cover;
+}
+p{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+#playing{
+    font-size: 17px;
+    padding-top: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#images img{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 200px;
+    width: 130px;
+    padding-top: 20px;
+}
+#images{
+    margin-left: 70px;
+    padding-bottom: 20px;
+}

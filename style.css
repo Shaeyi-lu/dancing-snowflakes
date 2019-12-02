@@ -1,7 +1,7 @@
 /*Styling the links in the wrapper at the top of the page*/
 .top:link, .top:visited{
     color:white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /*The following code is intended for the login/ sign up/ payments page*/

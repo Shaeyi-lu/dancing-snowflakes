@@ -276,7 +276,7 @@ iframe {
       padding: 10px;
   }
   .tickets{
-      background-color:#a6a6a6;
+      background-color:white;
       
       margin-top: 10px;
       
@@ -295,10 +295,17 @@ iframe {
   table th{
      font-size: 20px;
      margin-left: 20px;
+     width: 50px;
+     text-align: center;
+     
   }
   table td{
       font-size: 18px;
       margin-left: 40px;
+      width: 50px;
+      padding-bottom: 30px;
+      width: 300px;
+      text-align: center;
   }
   #form img{
       margin-left: 1250px;
@@ -306,3 +313,7 @@ iframe {
       
 
   }
+  table{
+      margin-left: 40px;
+  }
+  

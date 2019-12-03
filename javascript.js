@@ -57,7 +57,7 @@ function totalPrice() {
 
 function checkQuantity() {
     var quantityArray = quantityPrice()
-    if (!quantityArray[0] && !quantityArray[0] && !quantityArray[0]) {
+    if (!quantityArray[0] && !quantityArray[1] && !quantityArray[2]) {
         alert("Please enter a quantity!");
     }
 }

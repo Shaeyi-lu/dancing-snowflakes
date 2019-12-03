@@ -22,14 +22,7 @@ if(isset($_POST['pay'])){
       echo "<h2>Purchase Summary:</h2>";
       echo "Cardholder Name: " .$name. "<br>";
       echo "Card Number: ". $number. "<br>";
-      echo "Payment Amount: ". "<br>";
       echo "Transaction Date: " .date("l"). ", " .date("m-d-Y"). " at " .date('h:i A', strtotime($date)). "<br>" ;
-      echo "<h2>Your Selection: </h2>";
-      echo "Movie: ". "<br>";
-      echo "Date: ". "<br>";
-      echo "Time: ". "<br>";
-      echo "Location: Oshawa". "<br>";
-      echo "Total # of Tickets: ". "<br>";
       exit();
     }
     else {

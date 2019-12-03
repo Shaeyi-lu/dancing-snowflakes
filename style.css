@@ -243,5 +243,6 @@ iframe {
     border-radius: 12px;
 }
 .section p{
-    font-size: 27px;
+    font-size: 24px;
+    padding-top: 30px;
 }

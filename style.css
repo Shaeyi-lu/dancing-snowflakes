@@ -316,4 +316,9 @@ iframe {
   table{
       margin-left: 40px;
   }
-  
+  input[type="submit"]{
+      color: white;
+      background-color: rgb(207, 155, 57);
+      height: 40px;
+      border-radius: 6px;
+  }

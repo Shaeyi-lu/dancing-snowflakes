@@ -321,4 +321,12 @@ iframe {
       background-color: rgb(207, 155, 57);
       height: 40px;
       border-radius: 6px;
+      font-size: 20px;
+  }
+  table>td:nth-child(3){
+      width: 100px;
+  }
+  select{
+      width:100px;
+      height: 30px;
   }

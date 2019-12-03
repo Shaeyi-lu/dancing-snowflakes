@@ -9,21 +9,21 @@
 
 <body>
 
-    <form id="form">
-        <img src="images/legacy2.png" > 
+    <form id="form" action="signup.html">
+        <img src="images/legacy2.png">
         <div class="tickets">
-                
-       <h2>Tickets Purchase </h2>
-     <table>
-        <tr>
-            <th>Type</th>
-            <th>Quantity</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>General</td>
-            <td>
-            <select name="quantity" id="quantity" onchange="totalPrice()">
+
+            <h2>Tickets Purchase </h2>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>
+                        <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -36,12 +36,12 @@
                 <option value="nine">9</option>
                 <option value="ten">10</option>
             </select></td>
-            <td>$12.99</td>
-        </tr>
-        <tr>
-            <td>Child</td>
-            <td>
-            <select name="quantity" id="quantity" onchange="totalPrice()">
+                    <td>$12.99</td>
+                </tr>
+                <tr>
+                    <td>Child</td>
+                    <td>
+                        <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -54,12 +54,12 @@
                 <option value="nine">9</option>
                 <option value="ten">10</option>
             </select></td>
-            <td>$9.25</td>
-        </tr>
-        <tr>
-            <td>Senior</td>
-            <td>
-            <select name="quantity" id="quantity" onchange="totalPrice()">
+                    <td>$9.25</td>
+                </tr>
+                <tr>
+                    <td>Senior</td>
+                    <td>
+                        <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -72,16 +72,17 @@
                 <option value="nine">9</option>
                 <option value="ten">10</option>
             </select></td>
-            <td>$7.99</td>
-        </tr>    
-        <tr>
-            <th></th>
-           <th>Total:</th>
-           <th><p id="totalPrice"></p>
-            <input type="submit" value="Next Step" onclick="checkQuantity()"></th>
-        </tr>
-    </table>
-    </div>
+                    <td>$7.99</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Total:</th>
+                    <th>
+                        <p id="totalPrice"></p>
+                        <input type="submit" value="Next Step" onclick="checkQuantity()"></th>
+                </tr>
+            </table>
+        </div>
     </form>
 </body>
 

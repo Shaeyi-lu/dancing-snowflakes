@@ -13,13 +13,12 @@
     <table>
         <tr>
             <th>Type</th>
-            <th>General</th>
-            <th>Child</th>
-            <th>Senior</th>
+            <th>Quantity</th>
+            <th>Price</th>
         </tr>
         <tr>
-            <th></th>
-            <th><label for="quantity">Quantity</label>
+            <td>General</td>
+            <td>
             <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
@@ -32,8 +31,12 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-            </select></th>
-            <th><label for="quantity">Quantity</label>
+            </select></td>
+            <td>$12.99</td>
+        </tr>
+        <tr>
+            <td>Child</td>
+            <td>
             <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
@@ -46,8 +49,12 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-            </select></th>
-            <th><label for="quantity">Quantity</label>
+            </select></td>
+            <td>$9.25</td>
+        </tr>
+        <tr>
+            <td>Senior</td>
+            <td>
             <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
@@ -60,12 +67,12 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-            </select></th>
+            </select></td>
+            <td>$7.99</td>
         </tr>    
         <tr>
-           <th>Subtotal:</th>
-           <th></th>
-           <th></th>
+            <th></th>
+           <th>Total:</th>
            <th><p id="totalPrice"></p>
             <input type="submit" value="Next Step" onclick="checkQuantity()"></th>
         </tr>

@@ -272,6 +272,6 @@ iframe {
     margin-top: 20px;
   }
 
-  tr, th {
+  tr, td, th {
       padding: 10px;
   }

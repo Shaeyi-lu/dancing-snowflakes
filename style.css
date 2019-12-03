@@ -271,3 +271,7 @@ iframe {
     cursor: pointer;
     margin-top: 20px;
   }
+
+  tr, th {
+      padding: 10px;
+  }

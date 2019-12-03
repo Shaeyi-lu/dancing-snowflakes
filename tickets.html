@@ -4,17 +4,23 @@
 <head>
     <title>Tickets</title>
     <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
     <form id="form">
-        Ticket Type<br> General
-        <br> Child
-        <br> Senior
-        <br>
-        <label for="quantity">Quantity</label><br>
-        <select name="quantity" id="quantity" onchange="totalPrice()">
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>General</th>
+            <th>Child</th>
+            <th>Senior</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><label for="quantity">Quantity</label>
+            <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -26,9 +32,9 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-                </select><br>
-        <label for="quantity">Quantity</label><br>
-        <select name="quantity" id="quantity" onchange="totalPrice()">
+            </select></th>
+            <th><label for="quantity">Quantity</label>
+            <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -40,9 +46,9 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-                </select><br>
-        <label for="quantity">Quantity</label><br>
-        <select name="quantity" id="quantity" onchange="totalPrice()">
+            </select></th>
+            <th><label for="quantity">Quantity</label>
+            <select name="quantity" id="quantity" onchange="totalPrice()">
                 <option value="zero">0</option>
                 <option value="one">1</option>
                 <option value="two">2</option>
@@ -54,10 +60,16 @@
                 <option value="eight">8</option>
                 <option value="nine">9</option>
                 <option value="ten">10</option>
-                </select><br> Subtotal:
-        <p id="totalPrice"></p>
-
-        <input type="submit" value="Next Step" onclick="checkQuantity()">
+            </select></th>
+        </tr>    
+        <tr>
+           <th>Subtotal:</th>
+           <th></th>
+           <th></th>
+           <th><p id="totalPrice"></p>
+            <input type="submit" value="Next Step" onclick="checkQuantity()"></th>
+        </tr>
+    </table>
     </form>
 </body>
 

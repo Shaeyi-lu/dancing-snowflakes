@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tickets</title>
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+
+    <form id="form">
+        Ticket Type<br> General
+        <br> Child
+        <br> Senior
+        <br>
+        <label for="quantity">Quantity</label><br>
+        <select name="quantity" id="quantity" onchange="totalPrice()">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+                </select><br>
+        <label for="quantity">Quantity</label><br>
+        <select name="quantity" id="quantity" onchange="totalPrice()">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+                </select><br>
+        <label for="quantity">Quantity</label><br>
+        <select name="quantity" id="quantity" onchange="totalPrice()">
+                <option value="zero">0</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+                </select><br> Subtotal:
+        <p id="totalPrice"></p>
+
+        <input type="submit" value="Next Step" onclick="checkQuantity()">
+    </form>
+</body>
+
+</html>
